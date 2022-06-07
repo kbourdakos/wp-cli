@@ -1,0 +1,14 @@
+
+[Εγκατάσταση]
+
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+
+[.bashrc] - Στο παράδειγμα είμαι ROOT
+
+alias wp='php wp-cli.phar --allow-root'
+
+[Έλεγχος ότι λειτουργεί]
+
+[root@TEST.BOURDAKOS.COM::/var/www/vhosts/xfc02]>wp --version
+
+WP-CLI 2.6.0
