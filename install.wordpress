@@ -1,0 +1,14 @@
+
+
+============================================================================================================
+[Εγκατάσταση WORDPRESS μέσω WP CORE] - Στο παράδειγμα έχω 1 τοπική mariadb (username: damako3, dbname: test) 
+============================================================================================================
+
+
+1. wp core download
+
+2. wp config create --dbname=test --dbuser=damako3 
+
+3. wp core install --url=https://xfc02.kbourdakos.gr/ --title="The Wanka Zero\!" --admin_user=damako3 --admin_email=info@kbourdakos.gr
+
+4. Ολοκληρώθηκε. Visit το --url.
